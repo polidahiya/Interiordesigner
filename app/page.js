@@ -30,7 +30,7 @@ export default function Page() {
           {sites.map((site) => (
             <Link
               key={site.id}
-              href={`/web/${site.id}`}
+              href={`/web${site.id}`}
               className="group border border-white/10 bg-[#202020] p-6 transition duration-300 hover:-translate-y-2 hover:border-[#d7ff00] hover:bg-[#242424]"
             >
               <div className="flex items-start justify-between gap-4">
