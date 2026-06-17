@@ -1,4 +1,4 @@
-import { GlassElement } from "../Glasseffect/Glasselement";
+import { GlassElement } from "../../Glasseffect/Glasselement";
 import Wrapper from "./_navbar/Wrapper";
 
 function Navbar() {

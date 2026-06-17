@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { FaArrowRight } from "react-icons/fa6";
 import { motion, AnimatePresence } from "framer-motion";
-import { GlassElement } from "../Glasseffect/Glasselement";
+import { GlassElement } from "../../Glasseffect/Glasselement";
 
 export const STYLES = [
   {
