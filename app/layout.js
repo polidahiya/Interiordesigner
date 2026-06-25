@@ -34,7 +34,11 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col">
         {children}
-        <Link href={"https://forms.gle/8gdSTqypVXaV5jgk6"} className="fixed bottom-5 left-1/2 -translate-x-1/2 px-5 py-2 rounded-full text-[#d7ff00] bg-black  border border-[#d7ff00]/50" target="_blank">
+        <Link
+          href={"https://forms.gle/8gdSTqypVXaV5jgk6"}
+          className="fixed bottom-5 left-1/2 -translate-x-1/2 px-5 py-2 rounded-full text-[#d7ff00] bg-black  border border-[#d7ff00]/50 z-50"
+          target="_blank"
+        >
           Contact Us
         </Link>
       </body>
