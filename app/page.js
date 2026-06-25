@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const sites = new Array(11).fill(null).map((_, i) => ({
+const sites = new Array(12).fill(null).map((_, i) => ({
   id: i + 1,
   title: `Site ${i + 1}`,
   description: "View interior design website concept",

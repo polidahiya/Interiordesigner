@@ -1,5 +1,6 @@
 import { Playfair_Display, DM_Sans, DM_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -31,7 +32,12 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${dmSans.variable} ${playfair.variable} ${dmMono.variable} font-sans antialiased overflow-x-hidden`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <Link href={"https://forms.gle/8gdSTqypVXaV5jgk6"} className="fixed bottom-5 left-1/2 -translate-x-1/2 px-5 py-2 rounded-full text-[#d7ff00] bg-black  border border-[#d7ff00]/50" target="_blank">
+          Contact Us
+        </Link>
+      </body>
     </html>
   );
 }
